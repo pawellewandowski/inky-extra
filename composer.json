@@ -18,6 +18,12 @@
         "lorenzo/pinky": "^1.0.5",
         "twig/twig": "^2.4|^3.0"
     },
+         "repositories": [
+     
+     {
+            "type": "vcs",
+            "url": "https://github.com/pawellewandowski/pinky"
+        }]
     "require-dev": {
         "symfony/phpunit-bridge": "^4.4@dev"
     },
@@ -35,5 +41,6 @@
         "branch-alias": {
             "dev-master": "2.12-dev"
         }
-    }
+    },
+   
 }
